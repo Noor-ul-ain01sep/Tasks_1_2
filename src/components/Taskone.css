@@ -1,0 +1,102 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container h1 {
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.container input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.container .btn1 {
+    padding: 10px 20px;
+    background-color: rgb(125, 198, 213);
+    color: rgb(18, 17, 17);
+    font-size: 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+    border:none
+}
+
+.container .lists {
+    background-color: rgb(125, 198, 213);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.container ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container ol .lists li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+
+.container ol .lists li .btn2 {
+    background-color: rgb(125, 198, 213);
+    color: rgb(18, 17, 17);
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.container .btn3 {
+    background-color: rgb(125, 198, 213);
+    color: rgb(18, 17, 17);
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.container .btn1:hover
+{
+    background-color: rgb(28, 175, 205);
+    color: white;
+}
+.container ol .lists li .btn2:hover
+{
+    background-color: rgb(28, 175, 205);
+    color: white;
+}
+.container .btn3:hover
+{
+    background-color: rgb(28, 175, 205);
+    color: white;
+}
