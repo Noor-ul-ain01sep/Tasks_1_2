@@ -1,5 +1,5 @@
 # Deploy Link
-http://localhost:3000/Noor-ul-ain01sep/Task_one_two.git
+http://localhost:3000/Noor-ul-ain01sep/Task_1_2.git
 
 # Getting Started with Create React App
 
